@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch Application</title>
+  <link rel="stylesheet" href="Task 2.css">
+</head>
+<body>
+
+  <div class="stopwatch-container">
+    <h1>STOPWATCH</h1>
+
+    <!-- Display the time -->
+    <div class="time-display" id="time-display">00:00:00</div>
+
+    <!-- Control buttons -->
+    <div class="controls">
+      <button id="start-stop" onclick="startStop()">Start</button>
+      <button id="reset" onclick="reset()">Reset</button>
+      <button id="lap" onclick="recordLap()">Lap</button>
+    </div>
+
+    <!-- Laps list -->
+    <div class="laps">
+      <h2>Laps</h2>
+      <ul id="lap-list"></ul>
+    </div>
+  </div>
+
+  <script src="Task 2.js"></script>
+</body>
+</html>

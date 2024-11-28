@@ -1,0 +1,67 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    box-shadow: #7df6c2;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Stopwatch container */
+  .stopwatch-container {
+    text-align: center;
+    background-color: #e8dfdf;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Time display */
+  .time-display {
+    font-size: 48px;
+    margin: 20px 0;
+    font-size: bold;
+  }
+  
+  /* Control buttons */
+  .controls button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .controls button:hover {
+    background-color: #13d21d;
+  }
+  
+  .controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Laps section */
+  .laps {
+    margin-top: 20px;
+  }
+  
+  .laps ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .laps li {
+    font-size: 18px;
+    padding: 5px;
+    background-color: #89f67d;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
+  
