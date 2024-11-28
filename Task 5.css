@@ -1,0 +1,64 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .weather-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1em;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Weather info styling */
+  .weather-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  /* Error message styling */
+  #error-message {
+    font-size: 1em;
+    color: rgb(61, 167, 3);
+  }
+  

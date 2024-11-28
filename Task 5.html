@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="Task 5.css">
+</head>
+<body>
+
+  <div class="weather-container">
+    <h1>Weather App</h1>
+
+    <!-- Form for user to input city name -->
+    <div class="input-container">
+      <input type="text" id="city-input" placeholder="Enter city name" /><br><br>
+      <button id="get-weather-btn">Get Weather</button>
+    </div>
+
+    <!-- Display weather information -->
+    <div id="weather-info" class="weather-info" style="display: none;">
+      <p id="location">Location: </p>
+      <p id="temperature">Temperature: </p>
+      <p id="description">Description: </p>
+      <p id="humidity">Humidity: </p>
+      <p id="wind">Wind Speed: </p>
+    </div>
+
+    <p id="error-message" style="color: red;"></p>
+  </div>
+
+  <script src="Task 5.js"></script>
+</body>
+</html>
